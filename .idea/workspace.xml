@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e63d6756-d1de-4d49-9050-509e999c13aa" name="Changes" comment="随便啦">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuemasi/oop/day05/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuemasi/oop/day05/CodeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuemasi/oop/day05/FuDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuemasi/oop/day05/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuemasi/oop/day05/modify/Fu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuemasi/oop/day05/modify/Fudemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,15 +24,38 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/com/xuemasi/oop/day02/AnimalDemo.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DCarMvlXnuSkgFp2WpuRhmg5ho" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="RunManager" selected="Application.Test02 (1)">
-    <configuration name="Test02 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuemasi.oop.day05.Test02" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.CodeDemo (3)">
+    <configuration name="CodeDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuemasi.oop.day05.CodeDemo" />
       <module name="java_antia" />
       <extension name="coverage">
         <pattern>
@@ -40,7 +67,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CodeDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuemasi.oop.day05.CodeDemo" />
+      <module name="java_antia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuemasi.oop.day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeDemo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuemasi.oop.day05.CodeDemo" />
+      <module name="java_antia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuemasi.oop.day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuemasi.oop.day05.CodeDemo" />
+      <module name="java_antia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuemasi.oop.day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test02 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xuemasi.oop.day05.Test02" />
       <module name="java_antia" />
       <extension name="coverage">
@@ -55,13 +121,43 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test02 (1)" />
-        <item itemvalue="Application.Test02" />
+        <item itemvalue="Application.CodeDemo (3)" />
+        <item itemvalue="Application.CodeDemo (2)" />
+        <item itemvalue="Application.CodeDemo (1)" />
+        <item itemvalue="Application.CodeDemo" />
+        <item itemvalue="Application.Test02 (2)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e63d6756-d1de-4d49-9050-509e999c13aa" name="Changes" comment="随便啦" />
+      <created>1660205728295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660205728295</updated>
+      <workItem from="1660205735605" duration="866000" />
+      <workItem from="1660208238466" duration="16000" />
+      <workItem from="1660209128239" duration="51000" />
+      <workItem from="1660209785222" duration="19000" />
+      <workItem from="1660210759954" duration="277000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="随便啦" />
