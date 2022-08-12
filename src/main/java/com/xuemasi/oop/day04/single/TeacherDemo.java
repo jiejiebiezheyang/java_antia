@@ -16,13 +16,13 @@ class Teacher {
     // 由当前类提供唯一实例
     private static Teacher t;
 
+
     // 提供公共方法，来获取唯一实例
     public synchronized static Teacher getInstance() {
         if (t == null) {
             t = new Teacher();
         }
         return t;
-
     }
 }
 
@@ -40,5 +40,10 @@ public class TeacherDemo {
                 System.out.println(Teacher.getInstance());
             }
         }.start();
+        String a =  "ad";
+        String b = a ;
+        b = "da";
+        System.out.println(a);
+        System.out.println(b);
     }
 }
