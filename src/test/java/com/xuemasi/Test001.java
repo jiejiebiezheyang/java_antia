@@ -1,4 +1,4 @@
-package com.xuemasi;
+package java.com.xuemasi;
 
 import java.util.Arrays;
 

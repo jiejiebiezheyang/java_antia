@@ -1,4 +1,4 @@
-package com.xuemasi.day813;
+package java.com.xuemasi.day813;
 
 /**
  * Created with IntelliJ IDEA.
