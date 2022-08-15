@@ -5,7 +5,7 @@ package com.xuemasi.basic.day001;
  *
  * @Author: ltpcloud@qq.com
  * @Date: 2022/07/29/12:26
- * @Description:进制
+ * @Description: 进制
  */
 public class Demo001 {
     /*
