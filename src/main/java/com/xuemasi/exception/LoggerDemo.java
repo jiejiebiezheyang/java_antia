@@ -1,4 +1,4 @@
-package com.xuemasi;
+package com.xuemasi.exception;
 
 
 import org.slf4j.Logger;
