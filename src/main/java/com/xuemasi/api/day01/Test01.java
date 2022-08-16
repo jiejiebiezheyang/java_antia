@@ -15,6 +15,9 @@ public class Test01 {
 
         System.out.println(trim(s));
         System.out.println(reverse("abcdefg", 3, 7));
+        System.out.println(repeat("ab", "abcdabcdabcdabcdabcd"));
+        System.out.println(getStr("cqabse", "abfrrhsafdsfhh"));
+        System.out.println(strSort("ikyhnvfrs"));
     }
 
     public static String trim(String str) {
@@ -46,4 +49,48 @@ public class Test01 {
         return String.valueOf(chars);
     }
 
+    public static int repeat(String str, String src) {
+        int index = 0;
+        int count = 0;
+
+        while ((index = src.indexOf(str, index)) != -1) {
+            count++;
+            index = index + str.length();
+        }
+        return count;
+    }
+
+    // 4)
+    public static String getStr(String str, String src) {
+        int x = 1;
+        while (str.length() > 0) {
+            if (src.contains(str)) {
+                return str;
+            } else {
+                if (x % 2 != 0) {
+                    str = str.substring(1);
+                    System.out.println(str);
+                } else {
+                    str = str.substring(0,str.length()-1);
+                    System.out.println(str);
+                }
+                x++;
+            }
+        }
+        return "";
+    }
+
+    public static String strSort(String str) {
+        char[] arr = str.toCharArray();
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] > arr[j]) {
+                    char temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        return String.valueOf(arr);
+    }
 }
