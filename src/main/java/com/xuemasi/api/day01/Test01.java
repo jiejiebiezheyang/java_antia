@@ -13,11 +13,11 @@ public class Test01 {
     public static void main(String[] args) {
         String s = " abc ";
 
-        //System.out.println(trim(s));
-        //System.out.println(reverse("abcdefg", 3, 7));
-        //System.out.println(repeat("ab", "abcdabcdabcdabcdabcd"));
+        System.out.println(trim(s));
+        System.out.println(reverse("abcdefg", 3, 7));
+        System.out.println(repeat("ab", "abcdabcdabcdabcdabcd"));
         System.out.println(getStr("cqabse", "abfrrhsafdsfhh"));
-        //System.out.println(strSort("ikyhnvfrs"));
+        System.out.println(strSort("ikyhnvfrs"));
     }
 
     public static String trim(String str) {
@@ -69,7 +69,6 @@ public class Test01 {
         for (int i = 0; i < src.length() - 1; i++) {
             temp = str;
             temp = temp.substring(i);
-            System.out.println(temp);
             while (temp.length() > 1) {
                 temp = temp.substring(0, temp.length() - 1);
                 if (src.contains(temp)) {
