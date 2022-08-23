@@ -1,7 +1,5 @@
 package com.xuemasi.movieBuy;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.*;
 
 /**
@@ -11,31 +9,22 @@ import java.util.*;
  * @Date: 2022/08/22/14:44
  * @Description:
  */
-public class Customer extends User{
-    // 购买的所有电影票
-    private List<String> list = new ArrayList<>();
+public class Customer extends User {
+    //购买的所有电影票
+    //key：电影名称 value：是否被评分过
+    private Map<String,Boolean> buyMovies = new HashMap<>();
 
-    public List<String> getList() {
-        return list;
+    public Customer() {
     }
-
-    public void setList(List<String> list) {
-        this.list = list;
-    }
-
-
-    public Customer() {}
-
-    public Customer(List<String> list) {
-        this.list = list;
-    }
-
     public Customer(String loginName, String loginPassword, String realName, double balance, String tel, char gender) {
         super(loginName, loginPassword, realName, balance, tel, gender);
     }
 
-    public Customer(String loginName, String loginPassword, String realName, double balance, String tel, char gender, List<String> list) {
-        super(loginName, loginPassword, realName, balance, tel, gender);
-        this.list = list;
+    public Map<String, Boolean> getBuyMovies() {
+        return buyMovies;
+    }
+
+    public void setBuyMovies(Map<String, Boolean> buyMovies) {
+        this.buyMovies = buyMovies;
     }
 }

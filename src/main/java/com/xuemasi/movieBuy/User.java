@@ -8,19 +8,19 @@ package com.xuemasi.movieBuy;
  * @Description:
  */
 public class User {
-    private String LoginName; // 登录名
-    private String LoginPassword; // 登录密码
-    private String realName; // 真实姓名
-    private double balance; // 余额
-    private String tel; // 电话号码
-    private char gender; // 性别
+    private String loginName;//用户名
+    private String loginPassword;//密码
+    private String realName;//真实姓名
+    private double balance;//余额
+    private String tel;//电话号码
+    private char gender;//性别
 
     public User() {
     }
 
     public User(String loginName, String loginPassword, String realName, double balance, String tel, char gender) {
-        LoginName = loginName;
-        LoginPassword = loginPassword;
+        this.loginName = loginName;
+        this.loginPassword = loginPassword;
         this.realName = realName;
         this.balance = balance;
         this.tel = tel;
@@ -28,19 +28,19 @@ public class User {
     }
 
     public String getLoginName() {
-        return LoginName;
+        return loginName;
     }
 
     public void setLoginName(String loginName) {
-        LoginName = loginName;
+        this.loginName = loginName;
     }
 
     public String getLoginPassword() {
-        return LoginPassword;
+        return loginPassword;
     }
 
     public void setLoginPassword(String loginPassword) {
-        LoginPassword = loginPassword;
+        this.loginPassword = loginPassword;
     }
 
     public String getRealName() {
@@ -78,8 +78,8 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "LoginName='" + LoginName + '\'' +
-                ", LoginPassword='" + LoginPassword + '\'' +
+                "loginName='" + loginName + '\'' +
+                ", loginPassword='" + loginPassword + '\'' +
                 ", realName='" + realName + '\'' +
                 ", balance=" + balance +
                 ", tel='" + tel + '\'' +

@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * Created with IntelliJ IDEA.
@@ -51,10 +52,26 @@ public class MapDemo {
         System.out.println(map.size());
 
         System.out.println(map);
-
+        traverse1(map);
+        traverse2(map);
     }
 
     // 遍历方式一：entrySet()
+    private void traverse1(Map<String, Double> map) {
+        Set<Map.Entry<String, Double>> entries = map.entrySet();
+        for (Map.Entry<String, Double> entry : entries) {
+            System.out.println(entry.getKey() + "=" + entry.getValue());
+        }
+    }
 
     // 遍历方式二：keySet() get()
+    private void traverse2(Map<String, Double> map) {
+        // 获取键的集合
+        Set<String> set = map.keySet();
+        // 遍历键
+        for (String s : set) {
+            // 通过键获取值
+            System.out.println(s + "=" + map.get(s));
+        }
+    }
 }
