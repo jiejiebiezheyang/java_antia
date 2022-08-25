@@ -1,4 +1,4 @@
-package com.xuemasi.collection.day04;
+package com.xuemasi.collection.day03;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,7 +21,7 @@ import java.util.Set;
  * 5)输出Jack的工资，并将其工资加1000元(通过取值实现)
  * 6)将所有工资低于1000元的员工的工资上涨20%(通过取值实现)
  * */
-public class Test01 {
+public class Test02 {
     public static void main(String[] args) {
         Map<String, Double> staffs = new HashMap<>();
         staffs.put("Tom", 2000.0);
