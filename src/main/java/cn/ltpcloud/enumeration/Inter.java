@@ -1,0 +1,12 @@
+package cn.ltpcloud.enumeration;
+
+/**
+ * Created with IntelliJ IDEA.
+ *
+ * @Author: ltpcloud@qq.com
+ * @Date: 2022/08/25/14:10
+ * @Description:
+ */
+public interface Inter {
+    void show();
+}
