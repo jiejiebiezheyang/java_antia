@@ -13,11 +13,11 @@ import java.util.Set;
  */
 /*
  * 统计字符串中每个字符出现的次数
- * 比如，现由一个字符串"abcdabddbacda" ,输出a{d},b{3},c{2},d{4}
+ * 比如，现由一个字符串"abcd" ,输出a{1},b{1},c{1},d{1}
  * */
 public class Test03 {
     public static void main(String[] args) {
-        String src = "abcdabuyivycvvvuyempshsoinsofiohgsrtoinhsiofhsirhonddbacda";
+        String src = "abcdabcd";
         getTimes(src);
     }
 
@@ -26,7 +26,7 @@ public class Test03 {
 
         // 遍历字符串
         for (char aChar : src.toCharArray()) {
-            if (nums == null || nums.size() == 0) {
+            if (nums.size() == 0) {
                 nums.put(aChar, 1);
             } else {
                 if (nums.containsKey(aChar)) {
