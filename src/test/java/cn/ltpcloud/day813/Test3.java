@@ -1,4 +1,4 @@
-package java.com.xuemasi.day813;
+package cn.ltpcloud.day813;
 
 /**
  * Created with IntelliJ IDEA.

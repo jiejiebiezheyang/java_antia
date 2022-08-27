@@ -1,4 +1,4 @@
-package java.com.xuemasi;
+package cn.ltpcloud;
 
 /**
  * Created with IntelliJ IDEA.
