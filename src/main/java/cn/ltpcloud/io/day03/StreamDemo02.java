@@ -1,7 +1,6 @@
 package cn.ltpcloud.io.day03;
 
 import java.io.*;
-import java.util.Date;
 
 /**
  * Created with IntelliJ IDEA.
