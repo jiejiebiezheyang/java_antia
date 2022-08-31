@@ -1,4 +1,4 @@
-package cn.ltpcloud.thread.day02.pc;
+package cn.ltpcloud.thread.day02;
 
 import java.util.concurrent.*;
 
